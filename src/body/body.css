@@ -1,0 +1,87 @@
+.main-body-container {
+    background-color: white;
+    width: 100%;
+    margin: 0;
+}
+
+.main-banner {
+    border: 1px solid black;
+    margin: 0;
+    background-size: cover;
+    background-position: top;
+    text-align: center;
+    height: 700px;
+}
+.main-banner h1 {
+    padding: 250px 200px 0 200px ;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.main-banner button {
+    background-color: bisque;
+    border-radius: 3px;
+    width: 250px;
+    height: 50px
+}
+
+.main-banner button:hover {
+    background-color: gainsboro;
+}
+
+
+.info-section {
+    text-align: center;
+}
+
+.info-section-header {
+    font-family: 'Montserrat', sans-serif;
+    margin: 60px 0;
+}
+
+.info-section-header h2 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.first-info,.second-info {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 40%;
+    border: 2px solid bisque;
+    border-radius: 4px;
+}
+
+.info-image button {
+    margin: 20px;
+    background-color: bisque;
+    border-radius: 3px;
+    width: 250px;
+    height: 50px
+}
+
+.info-text {
+    font-family: 'Montserrat', sans-serif;
+    width: 60%;
+    text-align: left;
+    padding: 50px;
+}
+
+.info-text h4 {
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.info-text ul li{
+    list-style-type: circle;
+}

@@ -1,18 +1,34 @@
 .main-body-container {
     background-color: white;
-    width: 100%;
     margin: 0;
 }
 
 .main-banner {
-    border: 1px solid black;
+    text-align: left;
+    position: relative;
+    /* border: 1px solid black; */
     margin: 0;
-    background-size: cover;
-    background-position: top;
+    height: 100%;
     text-align: center;
-    height: 700px;
+  
 }
+
+.main-banner img {
+    width: 100%;
+}
+
+
 .main-banner h1 {
+    color: #52b788;
+    font-size: 4rem;
+    text-align: left;
+    left: 10%;
+
+    position: absolute;
+    width: 49%;
+    bottom: 30%;
+}
+/* .main-banner h1 {
     padding: 250px 200px 0 200px ;
     font-family: 'Montserrat', sans-serif;
     font-size: 60px;
@@ -21,16 +37,16 @@
 
 .main-banner button {
     background-color: bisque;
-    border-radius: 3px;
+    border-radius: 20px;
     width: 250px;
     height: 50px
 }
 
 .main-banner button:hover {
     background-color: gainsboro;
-}
+} */
 
-
+/* 
 .info-section {
     text-align: center;
 }
@@ -46,7 +62,8 @@
 }
 
 .first-info,.second-info {
-    margin: 50px 0;
+    margin: 10px 0;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
 }
@@ -58,23 +75,14 @@
     align-items: center;
     height: 400px;
     width: 40%;
-    border: 2px solid bisque;
     border-radius: 4px;
-}
-
-.info-image button {
-    margin: 20px;
-    background-color: bisque;
-    border-radius: 3px;
-    width: 250px;
-    height: 50px
 }
 
 .info-text {
     font-family: 'Montserrat', sans-serif;
     width: 60%;
     text-align: left;
-    padding: 50px;
+    padding: 90px;
 }
 
 .info-text h4 {
@@ -85,3 +93,14 @@
 .info-text ul li{
     list-style-type: circle;
 }
+
+
+.connectImg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.connectImg img {
+    width: 500px;
+} */

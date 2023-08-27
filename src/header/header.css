@@ -1,8 +1,9 @@
 .navbar.navbar-top {
     /* margin: 0 10%; */
     background-color: white;
-    border-bottom: 1px solid rgb(139, 137, 137);
+    /* border-bottom: 1px solid rgb(139, 137, 137); */
     justify-content: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .logo {

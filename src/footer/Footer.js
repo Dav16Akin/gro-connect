@@ -22,12 +22,6 @@ const Footer = () => {
               <li>
                 <a href="*">our services</a>
               </li>
-              <li>
-                <a href="*">privacy policy</a>
-              </li>
-              <li>
-                <a href="*">affiliate program</a>
-              </li>
             </ul>
           </div>
           <div className="footer-col">

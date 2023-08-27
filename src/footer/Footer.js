@@ -31,16 +31,16 @@ const Footer = () => {
                 <p>+234 (1) 632 8695</p>
               </li>
               <li>
+                <p>+234 (0) 705 755 5556</p>
+              </li>
+              <li>
                 <p>hello@gro.com.ng</p>
               </li>
               <li>
                 <p>www.gro.com.ng</p>
               </li>
               <li>
-                <p>
-                  35 Moloney Street, Obalende,
-                  Lagos Island, Lagos, Nigeri
-                </p>
+                <p>35 Moloney Street, Obalende, Lagos Island, Lagos, Nigeri</p>
               </li>
             </ul>
           </div>

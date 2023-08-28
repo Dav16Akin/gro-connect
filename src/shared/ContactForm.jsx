@@ -93,7 +93,7 @@ export const ContactForm = () => {
         <input
           name="message"
           value={message}
-          placeholder="Leave us a message"
+          placeholder="Leave us a message..."
           type="text"
           onChange={(e) => setMessage(e.target.value)}
         />

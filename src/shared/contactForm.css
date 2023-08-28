@@ -18,6 +18,7 @@
 .form-name {
     justify-content: space-between;
     display: flex;
+    width: 500px;
 }
 
 .form button {
@@ -30,22 +31,26 @@
 }
 
 .form {
-    width: 620px;
+    width: 900px;
 }
 
-.nameBox input,
-.emailBox input {
+.nameBox input {
     background-color: aliceblue;
     border: 0.5px solid #abcfbe;
     /* border-radius: 5px; */
-    width: 300px;
+    width: 210px;
     height: 55px;
     padding: 16px;
     font-family: 'Nunito', sans-serif;
 }
 
 .emailBox input {
-    width: 100%;
+    width: 499px;
+    background-color: aliceblue;
+    border: 0.5px solid #abcfbe;
+    height: 55px;
+    padding: 16px;
+    font-family: 'Nunito', sans-serif;
 }
 
 .nameBox span,
@@ -59,7 +64,7 @@
     background-color: aliceblue;
     border: 0.5px solid #abcfbe;
     /* border-radius: 5px; */
-    width: 100%;
+    width: 499px;
     height: 55px;
   
     padding: 16px;
@@ -76,6 +81,7 @@
 
 .form button {
     font-family: 'Nunito', sans-serif;
+    width: 499px;
     border: none;
     background-color: rgb(100, 230, 165);
     margin: 1rem 0;

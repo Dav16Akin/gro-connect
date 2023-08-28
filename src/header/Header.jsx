@@ -4,7 +4,7 @@ import logo from "./../images/GROLOGO.png";
 
 const Header = () => {
   return (
-    <div className="navbar navbar-top d-flex">
+    <div className="navbar navbar-top">
       <div className="logo" href="/">
         <a href="/">
           <img alt="logo" src={logo}></img>
@@ -157,7 +157,29 @@ const Header = () => {
           </li>
         </ul>
       </div>
-      <span class="material-symbols-outlined">contact_mail</span>
+      <div className="nav-item dropstart">
+        <span className="material-symbols-outlined nav-link "
+        role="button"
+        data-bs-toggle="dropdown"
+        aria-expanded="false">Info</span>
+        <ul class="dropdown-menu ">
+          <li>
+            <a class="dropdown-item" href="/about">
+              About Us
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="/services">
+              Our Servives
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="/solutions">
+              Our Solutions
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 };

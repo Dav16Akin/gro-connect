@@ -1,0 +1,16 @@
+.solution-banner {
+    text-align: center;
+}
+
+.solution-banner img {
+    width: 45%;
+}
+
+.solutions-text {
+    margin: 30px 200px 100px 200px;
+}
+
+.solutions-text ul li::before {
+    content: "-";
+    margin-right: 8px;
+}

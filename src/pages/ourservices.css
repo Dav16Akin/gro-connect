@@ -1,0 +1,66 @@
+.service-main-container {
+    height: 100%;
+}
+
+.service-banner {
+    text-align: center;
+}
+
+.service-banner img {
+    width: 50%;
+}
+
+.servives-container {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.services-side-text {
+    font-size: 1.3rem;
+    margin-right: 10px;
+    width: 15%;
+}
+
+.services {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 65%;
+}
+
+.service-box {
+    margin: 0 10px 10px 50px;
+    background-color: rgb(252, 252, 252);
+    width: 250px;
+    max-height: 500px;
+}
+
+.service-box h1 {
+    background-color: #52b788;
+    color: aliceblue;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+.service-box div {
+    width: 100%;
+    height: 100px;
+    background-color: azure;
+}
+
+.service-box ul li{
+    list-style: none;
+    padding-left: 0;
+}
+
+.service-box ul li::before {
+    content: "-";
+    margin-right: 8px;
+}
+
+.line {
+    width: 2px;
+    background-color: rgba(0, 0, 0, 0.185);
+    height: 400px;
+}

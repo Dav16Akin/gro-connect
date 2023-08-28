@@ -1,0 +1,29 @@
+.about-main-container {
+    height: 100%;
+}
+
+.about-banner-container {
+    height: 100vh;
+    background-size: cover;
+    background-image: url("./../images/6.png");
+    text-align: center;
+}
+
+.about-banner-container p {
+    font-size: 1.5rem;
+    text-align: left;
+    margin: 0 500px 0 190px;
+    position: absolute;
+    top: 35%;
+}
+
+.about-banner-container h1 {
+    position: absolute;
+    text-align: left;
+    margin: 0 500px 0 190px;
+    top: 26%;
+}
+
+.about-banner-container img {
+    width: 50%;
+}

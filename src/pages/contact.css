@@ -1,0 +1,14 @@
+.contact-form-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 120px 100px 120px;
+}
+
+.contact-page-banner {
+    text-align: center;
+    height: 30vh;
+}
+
+.contact-page-banner img {
+    width: 50%;
+}

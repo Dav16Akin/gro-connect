@@ -1,0 +1,93 @@
+.contact-form {
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.contact-form-text h1 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 3rem;
+}
+
+.contact-form-text p {
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.form-name {
+    justify-content: space-between;
+    display: flex;
+}
+
+.form button {
+    width: 100%;
+    border-radius: 0%;
+}
+
+.form p {
+    font-size: 1.6rem;
+}
+
+.form {
+    width: 620px;
+}
+
+.nameBox input,
+.emailBox input {
+    background-color: aliceblue;
+    border: 0.5px solid #abcfbe;
+    /* border-radius: 5px; */
+    width: 300px;
+    height: 55px;
+    padding: 16px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.emailBox input {
+    width: 100%;
+}
+
+.nameBox span,
+.emailBox span,
+.msgBox span {
+    color: #d90429;
+    display: block;
+}
+
+.msgBox input {
+    background-color: aliceblue;
+    border: 0.5px solid #abcfbe;
+    /* border-radius: 5px; */
+    width: 100%;
+    height: 55px;
+  
+    padding: 16px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.nameBox input:focus, .emailBox input:focus, .msgBox input:focus {
+    outline-color: #52b788;
+    /* Change to the desired outline color */
+    border-color: #52b788;
+    /* Change to match outline color if desired */
+}
+
+
+.form button {
+    font-family: 'Nunito', sans-serif;
+    border: none;
+    background-color: rgb(100, 230, 165);
+    margin: 1rem 0;
+}
+
+.form button:hover {
+    background-color: black;
+}
+
+.form-text {
+    color: black;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem;
+    margin: 20px 0;
+}

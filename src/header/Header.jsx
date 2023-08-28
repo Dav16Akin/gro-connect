@@ -4,9 +4,11 @@ import logo from "./../images/GROLOGO.png";
 
 const Header = () => {
   return (
-    <div className="navbar navbar-top d-flex fixed-top">
-      <div className="logo">
-        <img alt="logo" src={logo}></img>
+    <div className="navbar navbar-top d-flex">
+      <div className="logo" href="/">
+        <a href="/">
+          <img alt="logo" src={logo}></img>
+        </a>
       </div>
       <div className="nav-links">
         <ul className="navbar-links">
@@ -50,95 +52,112 @@ const Header = () => {
             </a>
             <ul class="dropdown-menu">
               <li>
-                <a class="dropdown-item" href="*" >
+                <a class="dropdown-item" href="*">
                   ACES
                 </a>
               </li>
             </ul>
           </li>
           <li className="nav-item dropdown">
-            <a className="nav-link dropdown-toggle"  href="*" role="button"
+            <a
+              className="nav-link dropdown-toggle"
+              href="*"
+              role="button"
               data-bs-toggle="dropdown"
-              aria-expanded="false">
+              aria-expanded="false"
+            >
               Market Places
             </a>
             <ul class="dropdown-menu">
               <li>
-                <a class="dropdown-item" href="*" >
+                <a class="dropdown-item" href="*">
                   NairaMarket
                 </a>
               </li>
               <li>
-                <a class="dropdown-item" href="*" >
+                <a class="dropdown-item" href="*">
                   GroMarket
-                </a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="*" >
-                  Buy4Me
                 </a>
               </li>
             </ul>
           </li>
           <li className="nav-item dropdown">
-            <a className="nav-link dropdown-toggle"  href="*" role="button"
+            <a
+              className="nav-link dropdown-toggle"
+              href="*"
+              role="button"
               data-bs-toggle="dropdown"
-              aria-expanded="false">
+              aria-expanded="false"
+            >
               Revenue Assurance
             </a>
             <ul class="dropdown-menu">
               <li>
-                <a class="dropdown-item" href="*" >
+                <a class="dropdown-item" href="*">
                   IGRPay
                 </a>
               </li>
               <li>
-                <a class="dropdown-item" href="*" >
+                <a class="dropdown-item" href="*">
                   PayCollect
                 </a>
               </li>
             </ul>
           </li>
           <li className="nav-item dropdown">
-            <a className="nav-link dropdown-toggle"  href="*" role="button"
+            <a
+              className="nav-link dropdown-toggle"
+              href="*"
+              role="button"
               data-bs-toggle="dropdown"
-              aria-expanded="false">
+              aria-expanded="false"
+            >
               Payment Services
             </a>
             <ul class="dropdown-menu">
               <li>
-                <a class="dropdown-item" href="*" >
+                <a class="dropdown-item" href="*">
                   GroPay
                 </a>
               </li>
               <li>
-                <a class="dropdown-item" href="*" >
+                <a class="dropdown-item" href="*">
                   INNSTAPay
                 </a>
               </li>
             </ul>
           </li>
           <li className="nav-item dropdown">
-            <a className="nav-link dropdown-toggle"  href="*" role="button"
+            <a
+              className="nav-link dropdown-toggle"
+              href="*"
+              role="button"
               data-bs-toggle="dropdown"
-              aria-expanded="false">
+              aria-expanded="false"
+            >
               Logistics
             </a>
             <ul class="dropdown-menu">
               <li>
-                <a class="dropdown-item" href="*" >
+                <a class="dropdown-item" href="*">
                   DILIVA
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="*">
+                  Buy4Me
                 </a>
               </li>
             </ul>
           </li>
           <li className="nav-item">
-            <a className="nav-link"  href="*" >
+            <a className="nav-link" href="/contact">
               Contact
             </a>
           </li>
         </ul>
       </div>
+      <span class="material-symbols-outlined">contact_mail</span>
     </div>
   );
 };

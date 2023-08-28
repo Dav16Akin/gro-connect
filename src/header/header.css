@@ -7,12 +7,17 @@
 }
 
 .logo {
+    cursor: pointer;
     padding: 0;
     margin: 0 30px;
 }
 
 .logo img {
     width: 120px;
+}
+
+.nav-link {
+    font-size: 1rem;
 }
 
 .navbar-links {
@@ -27,9 +32,12 @@
     justify-content: space-around;
     list-style-type: none;
 }
+.dropdown-menu {
+    width: 200px;
+}
 
 .nav-item {
-    margin: 0 20px;
+    margin: 0 7px;
     padding: 3px;
 }
 

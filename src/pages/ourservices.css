@@ -3,30 +3,37 @@
 }
 
 .service-banner {
-    text-align: center;
+    width: 100%;
 }
 
 .service-banner img {
-    width: 50%;
+    width: 100%;
 }
 
 .servives-container {
-    margin: 50px 0;
+    margin: 10px 0 60px 100px ;
     display: flex;
     justify-content: center;
 }
 
 .services-side-text {
     font-size: 1.2rem;
-    margin-right: 10px;
-    width: 15%;
+    margin: 100px 20px 0 0;
+    width: 35%;
 }
 
 .services {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    margin-left: 50px ;
-    width: 60%;
+    width: 70%;
+}
+
+.servi-container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .service-box {
@@ -46,21 +53,18 @@
 .service-box div {
     width: 100%;
     height: 100px;
-    background-color: azure;
 }
 
 .service-box ul li{
-    list-style: none;
+    list-style: disc;
     padding-left: 0;
 }
 
-.service-box ul li::before {
-    content: "-";
-    margin-right: 8px;
-}
+
 
 .line {
     width: 2px;
+    margin-top: 70px;
     background-color: rgba(0, 0, 0, 0.185);
     height: 400px;
 }

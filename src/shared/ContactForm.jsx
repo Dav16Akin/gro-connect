@@ -31,12 +31,12 @@ export const ContactForm = () => {
 
     if (validateForm()) {
       emailjs
-        // .sendForm(
-        //   "omomi_webcontact1",
-        //   "contact_form",
-        //   e.target,
-        //   "WQmwcwTf9Pu9w3DaT"
-        // )
+        .sendForm(
+          "groconnect977",
+          "template_1mjjung",
+          e.target,
+          "WQmwcwTf9Pu9w3DaT"
+        )
         .then(
           (result) => {
             console.log(result.text);

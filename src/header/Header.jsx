@@ -170,7 +170,7 @@ const Header = () => {
           </li>
           <li>
             <a class="dropdown-item" href="/services">
-              Our Servives
+              Our Services
             </a>
           </li>
           <li>

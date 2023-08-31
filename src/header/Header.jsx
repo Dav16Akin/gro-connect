@@ -24,17 +24,17 @@ const Header = () => {
             </a>
             <ul class="dropdown-menu">
               <li>
-                <a class="dropdown-item" href="*">
+                <a class="dropdown-item" href="/contact">
                   GroConnect
                 </a>
               </li>
               <li>
-                <a class="dropdown-item" href="*">
+                <a class="dropdown-item" href="/contact">
                   Tradex
                 </a>
               </li>
               <li>
-                <a class="dropdown-item" href="*">
+                <a class="dropdown-item" href="/contact">
                   GroWorld
                 </a>
               </li>
@@ -52,7 +52,7 @@ const Header = () => {
             </a>
             <ul class="dropdown-menu">
               <li>
-                <a class="dropdown-item" href="*">
+                <a class="dropdown-item" href="/contact">
                   ACES
                 </a>
               </li>
@@ -70,12 +70,12 @@ const Header = () => {
             </a>
             <ul class="dropdown-menu">
               <li>
-                <a class="dropdown-item" href="*">
+                <a class="dropdown-item" href="/contact">
                   NairaMarket
                 </a>
               </li>
               <li>
-                <a class="dropdown-item" href="*">
+                <a class="dropdown-item" href="/contact">
                   GroMarket
                 </a>
               </li>
@@ -93,12 +93,12 @@ const Header = () => {
             </a>
             <ul class="dropdown-menu">
               <li>
-                <a class="dropdown-item" href="*">
+                <a class="dropdown-item" href="/contact">
                   IGRPay
                 </a>
               </li>
               <li>
-                <a class="dropdown-item" href="*">
+                <a class="dropdown-item" href="/contact">
                   PayCollect
                 </a>
               </li>
@@ -116,12 +116,12 @@ const Header = () => {
             </a>
             <ul class="dropdown-menu">
               <li>
-                <a class="dropdown-item" href="*">
+                <a class="dropdown-item" href="/contact">
                   GroPay
                 </a>
               </li>
               <li>
-                <a class="dropdown-item" href="*">
+                <a class="dropdown-item" href="/contact">
                   INNSTAPay
                 </a>
               </li>
@@ -139,12 +139,12 @@ const Header = () => {
             </a>
             <ul class="dropdown-menu">
               <li>
-                <a class="dropdown-item" href="*">
+                <a class="dropdown-item" href="/contact">
                   DILIVA
                 </a>
               </li>
               <li>
-                <a class="dropdown-item" href="*">
+                <a class="dropdown-item" href="/contact">
                   Buy4Me
                 </a>
               </li>
